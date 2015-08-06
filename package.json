@@ -1,0 +1,33 @@
+{
+  "name": "postcss-nested-smacss",
+  "version": "0.0.0",
+  "description": "PostCSS plugin that adds smacss naming conventions to nested postcss files.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "smacss"
+  ],
+  "author": "Dave Snider <dave.snider@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snide/postcss-nested-smacss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/snide/postcss-nested-smacss/issues"
+  },
+  "homepage": "https://github.com/snide/postcss-nested-smacss",
+  "dependencies": {
+    "postcss": "^4.1.13"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^0.14.0",
+    "gulp-mocha": "^2.1.2"
+  },
+  "scripts": {
+    "test": "gulp"
+  }
+}
